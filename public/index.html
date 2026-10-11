@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vitrine des Coopératives Artisanales</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-900 min-h-screen">
+
+  <!-- En-tête -->
+  <header class="bg-emerald-800 text-white py-6 shadow-md">
+    <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
+      <div>
+        <h1 class="text-2xl font-bold tracking-tight">🇲🇦 Coopératives du Maroc</h1>
+        <p class="text-emerald-200 text-sm">Produits artisanaux authentiques en direct des coopératives</p>
+      </div>
+      <button onclick="loadProducts()" class="bg-emerald-700 hover:bg-emerald-600 text-xs px-3 py-1.5 rounded-full border border-emerald-500 font-medium transition">
+        🔄 Actualiser
+      </button>
+    </div>
+  </header>
+
+  <!-- Contenu Principal -->
+  <main class="max-w-6xl mx-auto px-4 py-8">
+    <div class="mb-6 flex items-center justify-between">
+      <h2 class="text-xl font-bold text-slate-800">Derniers Produits Publiés</h2>
+      <span id="product-count" class="text-xs bg-slate-200 text-slate-700 px-2.5 py-1 rounded-full font-semibold">0 produit</span>
+    </div>
+
+    <!-- Grille des produits -->
+    <div id="products-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="col-span-full text-center py-12 text-slate-400">Chargement des produits...</div>
+    </div>
+  </main>
+
+  <!-- Modal Lecteur Vidéo avec Audio activé -->
+  <div id="videoModal" class="fixed inset-0 bg-black/80 z-50 hidden flex items-center justify-center p-4">
+    <div class="relative bg-black rounded-2xl overflow-hidden max-w-sm w-full shadow-2xl flex flex-col items-center">
+      <button onclick="closeVideoModal()" class="absolute top-3 right-3 z-10 bg-white/20 hover:bg-white/40 text-white rounded-full w-8 h-8 flex items-center justify-center transition">
+        ✕
+      </button>
+      <video id="modalPlayer" controls playsinline class="w-full h-auto max-h-[80vh] rounded-2xl bg-black">
+        Votre navigateur ne supporte pas ce format vidéo.
+      </video>
+    </div>
+  </div>
+
+  <script>
+    async function loadProducts() {
+      const container = document.getElementById('products-grid');
+      const countBadge = document.getElementById('product-count');
+
+      try {
+        const res = await fetch('/api/products');
+        const products = await res.json();
+        countBadge.textContent = `${products.length} produit${products.length > 1 ? 's' : ''}`;
+
+        if (products.length === 0) {
+          container.innerHTML = `
+            <div class="col-span-full text-center py-12 bg-white rounded-2xl border border-dashed border-slate-300">
+              <p class="text-slate-500 text-base">Aucun produit publié pour l'instant.</p>
+              <p class="text-slate-400 text-sm mt-1">Envoyez <b>PUBLIER</b> sur WhatsApp pour ajouter le premier !</p>
+            </div>
+          `;
+          return;
+        }
+
+        container.innerHTML = products.map(p => {
+          const mainImage = (p.imagesUrls && p.imagesUrls.length > 0) ? p.imagesUrls[0] : 'https://placehold.co/400x300?text=Image+Produit';
+          const waLink = `https://wa.me/${p.phone}?text=${encodeURIComponent('Bonjour, je souhaite commander : ' + p.name + ' (Réf: #' + p.id + ')')}`;
+
+          return `
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col hover:shadow-md transition">
+              <!-- Image Produit -->
+              <div class="relative h-56 bg-slate-100 overflow-hidden">
+                <img src="${mainImage}" alt="${p.name}" class="w-full h-full object-cover">
+                <span class="absolute top-3 left-3 bg-emerald-600 text-white text-xs font-semibold px-2.5 py-1 rounded-full shadow">
+                  📍 ${p.city || 'Maroc'}
+                </span>
+                <span class="absolute top-3 right-3 bg-white/95 text-slate-800 text-xs font-bold px-2 py-1 rounded shadow">
+                  ${p.price} DH
+                </span>
+              </div>
+
+              <!-- Informations -->
+              <div class="p-5 flex-1 flex flex-col justify-between">
+                <div>
+                  <p class="text-xs font-semibold text-emerald-700 uppercase tracking-wide">${p.cooperativeName}</p>
+                  <h3 class="text-lg font-bold text-slate-900 mt-1">${p.name}</h3>
+                  <p class="text-sm text-slate-600 mt-2 line-clamp-3 leading-relaxed">${p.description}</p>
+                </div>
+
+                <div class="mt-5 pt-4 border-t border-slate-100 flex items-center justify-between gap-2">
+                  <a href="${waLink}" target="_blank" class="flex-1 text-center bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-semibold py-2 px-3 rounded-xl transition">
+                    💬 Commander
+                  </a>
+
+                  ${p.videoUrl ? `
+                    <button onclick="openVideoModal('${p.videoUrl}')" class="bg-slate-900 hover:bg-slate-800 text-white text-xs font-medium py-2 px-3 rounded-xl transition flex items-center gap-1">
+                      🎬 Reel
+                    </button>
+                  ` : ''}
+
+                  ${p.qrCodeUrl ? `
+                    <a href="${p.qrCodeUrl}" target="_blank" title="Voir QR Code" class="border border-slate-200 hover:bg-slate-50 text-slate-600 text-xs py-2 px-2.5 rounded-xl transition">
+                      🏷️
+                    </a>
+                  ` : ''}
+                </div>
+              </div>
+            </div>
+          `;
+        }).join('');
+      } catch (err) {
+        container.innerHTML = `<div class="col-span-full text-center text-red-500 py-8">Erreur de chargement de l'API.</div>`;
+      }
+    }
+
+    function openVideoModal(videoUrl) {
+      const modal = document.getElementById('videoModal');
+      const player = document.getElementById('modalPlayer');
+      player.src = videoUrl;
+      player.muted = false;
+      modal.classList.remove('hidden');
+      player.play().catch(e => console.log('Autoplay bloqué, lecture manuelle requise :', e));
+    }
+
+    function closeVideoModal() {
+      const modal = document.getElementById('videoModal');
+      const player = document.getElementById('modalPlayer');
+      player.pause();
+      player.src = '';
+      modal.classList.add('hidden');
+    }
+
+    // Chargement au démarrage
+    loadProducts();
+  </script>
+</body>
+</html>

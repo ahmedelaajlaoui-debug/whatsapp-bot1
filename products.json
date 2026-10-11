@@ -1,0 +1,539 @@
+[
+  {
+    "id": 1791592743357,
+    "phone": "4003010207755",
+    "name": "Prix:200[",
+    "price": 200,
+    "description": "Prix:200[",
+    "images": [
+      "prod_1791592688550_998.jpeg"
+    ],
+    "createdAt": "2026-10-10T00:39:03.357Z"
+  },
+  {
+    "id": 1791651677894,
+    "phone": "117476398469215",
+    "name": "9o9olian",
+    "price": 100,
+    "description": "Djssjhrfbdlq vcrdhskqldj soskdbd",
+    "images": [
+      "prod_1791651639399_5271.jpeg",
+      "prod_1791651639710_5708.jpeg"
+    ],
+    "createdAt": "2026-10-10T17:01:17.897Z"
+  },
+  {
+    "id": 1791654952078,
+    "phone": "4003010207755",
+    "name": "Produit1",
+    "price": 1200,
+    "description": "منتوج مغربية 100",
+    "images": [
+      "prod_4003010207755_1791654903621_7456.jpeg"
+    ],
+    "createdAt": "2026-10-10T17:55:51.207Z",
+    "qrCode": "qr_1791654952078.png"
+  },
+  {
+    "id": 1791665015508,
+    "coopId": "COOP_01",
+    "cooperativeName": "Sahara Artisans",
+    "managerName": "Ahmed",
+    "city": "Laâyoune",
+    "phone": "212640603618",
+    "name": "Ahmed",
+    "price": 120,
+    "description": "Aucune description",
+    "images": [
+      "prod_4003010207755_1791664981627_1265.jpeg"
+    ],
+    "status": "EN_ATTENTE_LIVRAISON",
+    "createdAt": "2026-10-10T20:43:34.706Z",
+    "qrCode": "qr_1791665015508.png"
+  },
+  {
+    "id": 1791665113827,
+    "coopId": "COOP_04",
+    "cooperativeName": "Coopérative Sara",
+    "managerName": "Sara",
+    "city": "Casablanca",
+    "phone": "117476398469215",
+    "name": "والو",
+    "price": 1,
+    "description": "Aucune description",
+    "images": [
+      "prod_117476398469215_1791665080342_605.jpeg"
+    ],
+    "status": "EN_ATTENTE_LIVRAISON",
+    "createdAt": "2026-10-10T20:45:13.407Z",
+    "qrCode": "qr_1791665113827.png"
+  },
+  {
+    "id": 1791666174749,
+    "coopId": "COOP_05",
+    "cooperativeName": "Coopérative Aymen",
+    "managerName": "Aymen",
+    "city": "Rabat",
+    "phone": "160271100293227",
+    "name": "Dakhla product",
+    "price": 100,
+    "description": "Aucune description",
+    "images": [
+      "prod_160271100293227_1791666115044_538.jpeg"
+    ],
+    "status": "EN_ATTENTE_LIVRAISON",
+    "createdAt": "2026-10-10T21:02:54.603Z",
+    "qrCode": "qr_1791666174749.png"
+  },
+  {
+    "id": 1791667237487,
+    "coopId": "COOP_06",
+    "cooperativeName": "Coopérative Khawla",
+    "managerName": "Khawla",
+    "city": "Taza",
+    "phone": "185298478706709",
+    "name": "اش نكتب في سميت المنتج",
+    "price": 107,
+    "description": "Aucune description",
+    "images": [
+      "prod_185298478706709_1791667126460_3281.jpeg"
+    ],
+    "status": "EN_ATTENTE_LIVRAISON",
+    "createdAt": "2026-10-10T21:20:37.016Z",
+    "qrCode": "qr_1791667237487.png"
+  },
+  {
+    "id": 1791672860233,
+    "coopId": "COOP_01",
+    "cooperativeName": "Sahara Artisans",
+    "managerName": "Ahmed",
+    "city": "Laâyoune",
+    "phone": "212640603618",
+    "name": "Ahmed",
+    "price": 100,
+    "description": "Aucune description",
+    "images": [
+      "prod_4003010207755_1791672833624_8144.jpeg"
+    ],
+    "status": "EN_ATTENTE_LIVRAISON",
+    "createdAt": "2026-10-10T22:54:19.983Z",
+    "qrCode": "qr_1791672860233.png"
+  },
+  {
+    "id": 1791673499618,
+    "coopId": "COOP_01",
+    "cooperativeName": "Sahara Artisans",
+    "managerName": "Ahmed",
+    "city": "Laâyoune",
+    "phone": "212640603618",
+    "name": "زيت",
+    "price": 13,
+    "description": "بدون وصف",
+    "images": [
+      "prod_4003010207755_1791673447262_5786.jpeg"
+    ],
+    "status": "EN_ATTENTE_LIVRAISON",
+    "createdAt": "2026-10-10T23:04:58.705Z",
+    "qrCode": "qr_1791673499618.png"
+  },
+  {
+    "id": 1791673956933,
+    "coopId": "COOP_01",
+    "cooperativeName": "Sahara Artisans",
+    "managerName": "Ahmed",
+    "city": "Laâyoune",
+    "phone": "212640603618",
+    "name": "منتج",
+    "price": 4,
+    "description": "بدون وصف",
+    "images": [
+      "prod_4003010207755_1791673924147_1804.jpeg"
+    ],
+    "status": "EN_ATTENTE_LIVRAISON",
+    "createdAt": "2026-10-10T23:12:36.393Z",
+    "qrCode": "qr_1791673956933.png"
+  },
+  {
+    "id": 1791674296438,
+    "coopId": "COOP_01",
+    "cooperativeName": "Sahara Artisans",
+    "managerName": "Ahmed",
+    "city": "Laâyoune",
+    "phone": "212640603618",
+    "name": "الغاء",
+    "price": 15,
+    "description": "حل برمجي متكامل ومبتكر مصمم خصيصاً للتعاونيات الحرفية المغربية لأتمتة التسويق وصناعة المحتوى الترويجي عبر واتساب. يتيح للحرفيين تحويل صور منتجاتهم إلى إعلانات وفيديوهات احترافية بضغطة زر واحدة ودون تعقيد تقني.",
+    "images": [
+      "prod_4003010207755_1791674220953_8657.jpeg"
+    ],
+    "status": "EN_ATTENTE_LIVRAISON",
+    "createdAt": "2026-10-10T23:18:15.491Z",
+    "qrCode": "qr_1791674296438.png"
+  },
+  {
+    "id": 1791674613635,
+    "coopId": "COOP_01",
+    "cooperativeName": "Sahara Artisans",
+    "managerName": "Ahmed",
+    "city": "Laâyoune",
+    "name": "باك الأصالة الصحراوية: كوفيا الذرة والعلك الطبيعي",
+    "price": 120,
+    "description": "اكتشفوا سر الطاقة والمناعة من قلب الصحراء المغربية مع هذه التوليفة الطبيعية التي تجمع بين دقيق كوفيا الذرة المحمصة بعناية والعلك الصحراوي النقي عالي الجودة. غذاء تقليدي غني بالألياف والمعادن الأساسية، مثالي لتعزيز النشاط اليومي وتحسين الهضم بنكهة تراثية أصيلة. خياركم الصحي المتكامل لوجبة مغذية تجمع بين أصالة التراث وفوائد الطبيعة الخالصة.",
+    "phone": "212640603618",
+    "images": [
+      "prod_4003010207755_1791674565423.jpeg"
+    ],
+    "qrCode": "qr_1791674613635.png",
+    "video": null,
+    "createdAt": "2026-10-10T23:23:33.860Z"
+  },
+  {
+    "id": 1791675447640,
+    "coopId": "COOP_01",
+    "cooperativeName": "Sahara Artisans",
+    "managerName": "Ahmed",
+    "city": "Laâyoune",
+    "name": "مجموعة الكوفيو الصحراوي والعلك الطبيعي الأصيل",
+    "price": 12,
+    "description": "اكتشفوا روعة التراث الصحراوي مع هذا المزيج الفريد الذي يجمع بين دقيق الذرة المحمص (الكوفيو) عالي القيمة الغذائية والعلك الصحراوي الطبيعي النقي. تركيبة تقليدية أصيلة غنية بالطاقة والألياف، مثالية لتعزيز الحيوية وصحة الجهاز الهضمي بنكهة صحراوية عريقة لا تُقاوم.",
+    "phone": "212640603618",
+    "images": [
+      "prod_4003010207755_1791675392643.jpeg"
+    ],
+    "qrCode": "qr_1791675447640.png",
+    "video": "video_1791675447640.mp4",
+    "createdAt": "2026-10-10T23:37:40.391Z"
+  },
+  {
+    "id": 1791676329687,
+    "coopId": "COOP_01",
+    "cooperativeName": "Sahara Artisans",
+    "managerName": "Ahmed",
+    "city": "Laâyoune",
+    "name": "مجموعة الأصالة الصحراوية: كوفيو الذرة الطبيعي مع العلك الصحراوي الفاخر",
+    "price": 12,
+    "description": "استمتع بأصالة التقاليد الصحراوية العريقة مع هذا الثنائي الفريد الذي يجمع بين كوفيو الذرة المحمصة الغنية بالطاقة وصمغ العلك الصحراوي الطبيعي الممتاز. توليفة غذائية متكاملة ومثالية لتحضير أشهى المشروبات التقليدية كـ'الزريق' وتعزيز الحيوية والنشاط طوال اليوم. خياركم الأمثل لمنتجات طبيعية 100% تعكس جودة التراث المغربي الأصيل وفوائده الصحية.",
+    "phone": "212640603618",
+    "images": [
+      "prod_4003010207755_1791676270016.jpeg"
+    ],
+    "qrCode": "qr_1791676329687.png",
+    "video": "video_1791676329687.mp4",
+    "createdAt": "2026-10-10T23:52:21.798Z"
+  },
+  {
+    "id": 1791677016251,
+    "coopId": "COOP_01",
+    "cooperativeName": "Sahara Artisans",
+    "managerName": "Ahmed",
+    "city": "Laâyoune",
+    "name": "باقة الأصالة الصحراوية: كوفيا الذرة الفاخرة مع العلك الحر",
+    "price": 12,
+    "description": "اكتشف روعة التراث الغذائي الصحراوي مع هذه التوليفة المميزة التي تجمع بين كوفيا الذرة المحمصة بعناية فائقة الغنية بالطاقة، والعلك الصحراوي الطبيعي النقي ذي الفوائد الصحية والاستشفائية المتعددة. خيار مثالي يمنحك الحيوية والتغذية المتوازنة بلمسة تقليدية أصيلة تثري مائدتك الصحية كل يوم.",
+    "phone": "212640603618",
+    "images": [
+      "prod_4003010207755_1791676924298.jpeg",
+      "prod_4003010207755_1791676943986.jpeg"
+    ],
+    "qrCode": "qr_1791677016251.png",
+    "video": "video_1791677016251.mp4",
+    "createdAt": "2026-10-11T00:03:49.254Z"
+  },
+  {
+    "id": 1791677780592,
+    "coopId": "COOP_06",
+    "cooperativeName": "Coopérative Khawla",
+    "managerName": "Khawla",
+    "city": "Taza",
+    "name": "Produit Artisanal",
+    "price": 113,
+    "description": "Produit artisanal authentique fait main au Maroc avec une finition soignée.",
+    "phone": "185298478706709",
+    "images": [
+      "prod_185298478706709_1791677726392.jpeg"
+    ],
+    "qrCode": "qr_1791677780592.png",
+    "video": "video_1791677780592.mp4",
+    "createdAt": "2026-10-11T00:16:31.954Z"
+  },
+  {
+    "id": 1791678228388,
+    "coopId": "COOP_01",
+    "cooperativeName": "Sahara Artisans",
+    "managerName": "Ahmed",
+    "city": "Laâyoune",
+    "name": "الصمغ العربي الطبيعي الأصيل",
+    "price": 134,
+    "description": "اكتشفوا نقاء الطبيعة وفوائدها التي لا تُحصى مع أجود أنواع الصمغ العربي العضوي، المجموع يدوياً بعناية فائقة للحفاظ على كامل خصائصه الغذائية والعلاجية. يعتبر مصدراً غنياً بالألياف الطبيعية التي تدعم صحة الجهاز الهضمي وتعزز الحيوية والمناعة، ليكون رفيقكم المثالي لنمط حياة صحي ومتوازن. منتج تقليدي فاخر ونقي 100% يجمع بين أصالة التراث وجودة الطبيعة الخالصة.",
+    "phone": "212640603618",
+    "images": [
+      "prod_4003010207755_1791678161336.jpeg"
+    ],
+    "qrCode": "qr_1791678228388.png",
+    "video": "video_1791678228388.mp4",
+    "createdAt": "2026-10-11T00:24:02.160Z"
+  },
+  {
+    "id": 1791678587281,
+    "coopId": "COOP_01",
+    "cooperativeName": "Sahara Artisans",
+    "managerName": "Ahmed",
+    "city": "Laâyoune",
+    "name": "مجموعة الأصالة الصحراوية: كوفيا الذرة الطبيعية مع العلك الصحراوي الحر",
+    "price": 13,
+    "description": "اكتشفوا عبق التراث الجنوبي مع هذا الثنائي الصحي المميز الذي يجمع بين كوفيا الذرة المحمصة بعناية والغنية بالطاقة، والعلك الصحراوي الطبيعي المعروف بفوائده ونكهته الفريدة مع الشاي. تركيبة تقليدية أصيلة توفر لكم غذاءً متكاملاً يدعم النشاط اليومي والهضم، وتمنحكم تجربة صحراوية لا تُنسى بأعلى معايير الجودة.",
+    "phone": "212640603618",
+    "images": [
+      "prod_4003010207755_1791678540672.jpeg"
+    ],
+    "qrCode": "qr_1791678587281.png",
+    "video": "video_1791678587281.mp4",
+    "createdAt": "2026-10-11T00:30:13.808Z"
+  },
+  {
+    "id": 1791679121149,
+    "coopId": "COOP_01",
+    "cooperativeName": "Sahara Artisans",
+    "managerName": "Ahmed",
+    "city": "Laâyoune",
+    "name": "الصمغ العربي الطبيعي الحر الفاخر",
+    "price": 13,
+    "description": "اكتشفوا نقاء الطبيعة مع الصمغ العربي الأصيل، المنتقى بعناية فائقة لتقديم أجود حبيبات الراتنج الطبيعية الغنية بالألياف والمعادن الحيوية. يتميز بخصائصه الصحية المذهلة في دعم صحة الجهاز الهضمي وتعزيز المناعة، مما يجعله إضافة مثالية لروتينكم الصحي اليومي. منتج طبيعي 100% يجسد أصالة التقاليد وجودة الطبيعة الخالصة.",
+    "phone": "212640603618",
+    "images": [
+      "prod_4003010207755_1791679084366.jpeg"
+    ],
+    "qrCode": "qr_1791679121149.png",
+    "video": "video_1791679121149.mp4",
+    "createdAt": "2026-10-11T00:39:22.036Z"
+  },
+  {
+    "id": 1791679583620,
+    "coopId": "COOP_01",
+    "cooperativeName": "Sahara Artisans",
+    "managerName": "Ahmed",
+    "city": "Laâyoune",
+    "name": "شال أمازيغي تقليدي فاخر مطرز بكرات الصوف الملونة",
+    "price": 134,
+    "description": "تألقي بلمسة من سحر التراث المغربي الأصيل مع هذا الشال النسائي الفاخر، المصنوع يدويًا بشغف وإتقان بأيدي أمهر الصانعات التقليديات. يتميز بقماش أسود انسيابي راقٍ، مزدان بتطريزات أمازيغية متقنة وكرات صوف ملونة تضفي بهجة وأناقة استثنائية على إطلالتك. قطعة فريدة تجمع بين أصالة الماضي وجاذبية الحاضر، لتمنحك حضورًا متميزًا في أرقى المناسبات والاحتفالات.",
+    "phone": "212640603618",
+    "images": [
+      "prod_4003010207755_1791679510073.jpeg"
+    ],
+    "qrCode": "qr_1791679583620.png",
+    "video": "video_1791679583620.mp4",
+    "createdAt": "2026-10-11T00:46:53.187Z"
+  },
+  {
+    "id": 1791680288140,
+    "coopId": "COOP_01",
+    "cooperativeName": "Sahara Artisans",
+    "managerName": "Ahmed",
+    "city": "Laâyoune",
+    "name": "منتوج تقليدي أصيل",
+    "price": 13,
+    "description": "منتوج يدوي عالي الجودة مصنوع بعناية وإتقان، متوفر للتوصيل والدفع عند الاستلام.",
+    "phone": "212640603618",
+    "images": [
+      "prod_4003010207755_1791680246113.jpeg"
+    ],
+    "qrCode": "qr_1791680288140.png",
+    "video": "video_1791680288140.mp4",
+    "createdAt": "2026-10-11T00:58:34.573Z"
+  },
+  {
+    "id": 1791680506985,
+    "coopId": "COOP_01",
+    "cooperativeName": "Sahara Artisans",
+    "managerName": "Ahmed",
+    "city": "Laâyoune",
+    "name": "Produit Artisanal",
+    "price": 13,
+    "description": "Produit artisanal authentique fait main au Maroc avec une finition soignée.",
+    "phone": "212640603618",
+    "images": [
+      "prod_4003010207755_1791680472163.jpeg"
+    ],
+    "qrCode": "qr_1791680506985.png",
+    "video": "video_1791680506985.mp4",
+    "createdAt": "2026-10-11T01:02:12.710Z"
+  },
+  {
+    "id": 1791680768373,
+    "coopId": "COOP_01",
+    "cooperativeName": "Sahara Artisans",
+    "managerName": "Ahmed",
+    "city": "Laâyoune",
+    "name": "شال أمازيغي أصيل مطرز بكرات الصوف الملونة",
+    "price": 13,
+    "description": "تألقي بلمسة ساحرة من عبق التراث المغربي مع هذا الشال الأمازيغي الفاخر، المصنوع يدويًا بأنامل حرفيات مبدعات. يزدان بتطريزات تقليدية متقونة وكرات صوفية زاهية تضفي بهجة استثنائية وأناقة فريدة على إطلالتك في مختلف المناسبات. قطعة فنية ناعمة وخفيفة تجمع بين الأصالة والتميز لتكون إضافة راقية لخزانتك.",
+    "phone": "212640603618",
+    "images": [
+      "prod_4003010207755_1791680724958.jpeg"
+    ],
+    "qrCode": "qr_1791680768373.png",
+    "video": "video_1791680768373.mp4",
+    "createdAt": "2026-10-11T01:06:33.710Z"
+  },
+  {
+    "id": 1791681123261,
+    "coopId": "COOP_01",
+    "cooperativeName": "Sahara Artisans",
+    "managerName": "Ahmed",
+    "city": "Laâyoune",
+    "name": "ثنائي الأصالة الصحراوية: كوفيا الذرة الطبيعية مع العلك الحر",
+    "price": 12,
+    "description": "استمتعوا بنكهة الصحراء المغربية الأصيلة مع هذا الثنائي الصحي والمغذي، الذي يجمع بين دقيق ذرة الكوفيا المحمص بعناية فائقة والعلك الصحراوي الطبيعي الغني بالفوائد العلاجية. خيار تقليدي متكامل ومثالي لتحضير أشهى الوجبات والمشروبات المليئة بالطاقة الحيوية والمعادن، ليمنحكم نشاطاً يدوم طوال اليوم بنقاء طبيعي 100%.",
+    "phone": "212640603618",
+    "images": [
+      "prod_4003010207755_1791681073979.jpeg"
+    ],
+    "qrCode": "qr_1791681123261.png",
+    "video": null,
+    "createdAt": "2026-10-11T01:12:06.403Z"
+  },
+  {
+    "id": 1791681997020,
+    "coopId": "COOP_01",
+    "cooperativeName": "Sahara Artisans",
+    "managerName": "Ahmed",
+    "city": "Laâyoune",
+    "name": "طحين الذرة المحمص مع صمغ الأكاسيا الصحراوي",
+    "price": 1356,
+    "description": "اكتشفوا جودة التراث الأصيل مع دقيق الذرة المحمص 'لحسن كنتاوي' المصنوع بعناية فائقة، والمرافق بصمغ الأكاسيا الطبيعي المستوحى من قلب الصحراء المغربية. مزيج تقليدي فريد يجمع بين النكهة الغنية والفوائد الصحية العالية، ليمنحكم طاقة طبيعية وجودة لا تُضاهى في كل استخدام.",
+    "phone": "212640603618",
+    "images": [
+      "prod_4003010207755_1791681941372.jpeg"
+    ],
+    "qrCode": "qr_1791681997020.png",
+    "video": "video_1791681997020.mp4",
+    "status": "EN_ATTENTE_LIVRAISON",
+    "createdAt": "2026-10-11T01:26:37.222Z"
+  },
+  {
+    "id": 1791682384720,
+    "coopId": "COOP_01",
+    "cooperativeName": "Sahara Artisans",
+    "managerName": "Ahmed",
+    "city": "Laâyoune",
+    "name": "طحين الذرة المحمص مع الصمغ العربي",
+    "price": 23,
+    "description": "اكتشفوا جودة المنتجات الأصيلة المستوحاة من التراث المغربي العريق، المكونة من طحين الذرة المحمص خفيف التوست والصمغ العربي الطبيعي. تمنحكم هذه التشكيلة الممتازة تجربة غذائية غنية بالنكهات والفوائد الصحية، مثالية لتحضير الأطباق التقليدية المغذية بكل حب واتقان.",
+    "phone": "212640603618",
+    "images": [
+      "prod_4003010207755_1791682341946.jpeg"
+    ],
+    "qrCode": "qr_1791682384720.png",
+    "video": "video_1791682384720.mp4",
+    "status": "EN_ATTENTE_LIVRAISON",
+    "createdAt": "2026-10-11T01:33:04.949Z"
+  },
+  {
+    "id": 1791682699996,
+    "coopId": "COOP_01",
+    "cooperativeName": "Sahara Artisans",
+    "managerName": "Ahmed",
+    "city": "Laâyoune",
+    "name": "صمغ عربي طبيعي نقي",
+    "price": 13,
+    "description": "اكتشفوا جودة صمغنا العربي الطبيعي المستخلص بعناية من أشجار السنغال الأصيلة، والمعروف بفوائده الصحية المتعددة واستخداماته الواسعة في الصناعات الغذائية والتقليدية. منتج نقي عالي الجودة يجمع بين أصالة الطبيعة المغربية وفعالية المكونات التقليدية لتلبية كافة احتياجاتكم.",
+    "phone": "212640603618",
+    "images": [
+      "prod_4003010207755_1791682653385.jpeg"
+    ],
+    "qrCode": "qr_1791682699996.png",
+    "video": null,
+    "status": "EN_ATTENTE_LIVRAISON",
+    "createdAt": "2026-10-11T01:38:20.095Z"
+  },
+  {
+    "id": 1791683144521,
+    "coopId": "COOP_01",
+    "cooperativeName": "Sahara Artisans",
+    "managerName": "Ahmed",
+    "city": "Laâyoune",
+    "name": "طحين الذرة المحمص الصحرواي الفاخر و صمغ الدباغ الطبيعي",
+    "price": 13,
+    "description": "اكتشفوا الجودة الأصيلة مع طحين الذرة المحمص «لحسن كنتاوي» الطبيعي بنسبة 100% والمرافق بصمغ الدباغ الصحراوي ذو الفوائد المتعددة. منتجات تقليدية مختارة بعناية لتلبي ذوقكم الرفيع وتمنحكم طاقة صحية وغذائية متكاملة مستوحاة من التراث المغربي العريق.",
+    "phone": "212640603618",
+    "images": [
+      "prod_4003010207755_1791683113448.jpeg"
+    ],
+    "qrCode": "qr_1791683144521.png",
+    "video": "video_1791683144521.mp4",
+    "status": "EN_ATTENTE_LIVRAISON",
+    "createdAt": "2026-10-11T01:45:44.732Z"
+  },
+  {
+    "id": 1791683314247,
+    "coopId": "COOP_01",
+    "cooperativeName": "Sahara Artisans",
+    "managerName": "Ahmed",
+    "city": "Laâyoune",
+    "name": "Gomme Arabique Pure du Maroc",
+    "price": 13,
+    "description": "Découvrez notre gomme arabique 100% naturelle, récoltée dans le respect du savoir-faire artisanal marocain. Idéale pour vos préparations culinaires, cosmétiques et artistiques, elle garantit une qualité supérieure et des bienfaits incomparables.",
+    "phone": "212640603618",
+    "images": [
+      "prod_4003010207755_1791683289931.jpeg"
+    ],
+    "qrCode": "qr_1791683314247.png",
+    "video": "video_1791683314247.mp4",
+    "status": "EN_ATTENTE_LIVRAISON",
+    "createdAt": "2026-10-11T01:48:34.426Z"
+  },
+  {
+    "id": 1791683435274,
+    "coopId": "COOP_01",
+    "cooperativeName": "Sahara Artisans",
+    "managerName": "Ahmed",
+    "city": "Laâyoune",
+    "name": "إيشارب مغري مطرز بلمسات تقليدية وبومبوم",
+    "price": 129,
+    "description": "استمتعي بالأناقة الأصيلة مع هذا الإيشارب الأسود المصنوع بعناية فائقة، والمزين بتطريزات يدوية زاهية وبومبوم ملونة تضفي لمسة حيوية وفنية على إطلالتك اليومية أو المناسبات الخاصة.",
+    "phone": "212640603618",
+    "images": [
+      "prod_4003010207755_1791683405851.jpeg"
+    ],
+    "qrCode": "qr_1791683435274.png",
+    "video": "video_1791683435274.mp4",
+    "status": "EN_ATTENTE_LIVRAISON",
+    "createdAt": "2026-10-11T01:50:35.360Z"
+  },
+  {
+    "id": 1791683939903,
+    "coopId": "COOP_01",
+    "cooperativeName": "Sahara Artisans",
+    "managerName": "Ahmed",
+    "city": "Laâyoune",
+    "name": "الصمغ العربي الحر",
+    "price": 24,
+    "description": "مرحبتي بكم! جبنا لكم اليوم الصمغ العربي الحر من قلب الصحراء المغربية، منتوج أصيل جودة عالية 100% ومقطوف بعناية تامة. خياركم الأمثل لكل الاستعمالات التقليدية والطبية، بفضل فوائده العظيمة وصنعته النقية لي ترضي كل ذواق.",
+    "phone": "212640603618",
+    "images": [
+      "prod_4003010207755_1791683895810.jpeg"
+    ],
+    "qrCode": "qr_1791683939903.png",
+    "video": "video_1791683939903.mp4",
+    "status": "EN_ATTENTE_LIVRAISON",
+    "createdAt": "2026-10-11T01:59:00.167Z"
+  },
+  {
+    "id": 1791685657459,
+    "coopId": "COOP_01",
+    "cooperativeName": "Sahara Artisans",
+    "city": "Laâyoune",
+    "region": "Laâyoune-Sakia El Hamra",
+    "name": "زربية صحراوية أصيلة",
+    "price": 123,
+    "description": "مرحبتي بكم يا أهل الجود! جبنالكم منتوج صحراوي أصيل مصنوع بيدينا وبصنعة متقونة تعكس تراث الصحراء المغربية العريقة. زربية تزيد داركم جمالية ودفء بجودة عالية تليق بناس الذوق الرفيع.",
+    "phone": "212640603618",
+    "images": [
+      "prod_4003010207755_1791685621381.jpeg"
+    ],
+    "qrCode": "qr_1791685657459.png",
+    "video": "video_1791685657459.mp4",
+    "status": "EN_ATTENTE_LIVRAISON",
+    "createdAt": "2026-10-11T02:27:37.947Z"
+  }
+]
