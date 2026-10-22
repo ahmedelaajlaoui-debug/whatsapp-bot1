@@ -1,3 +1,29 @@
-node_modules/
-whatsapp_session/
-.env
+# Dépendances Node.js et verrous
+**/node_modules/
+**/package-lock.json
+
+# Session WhatsApp et clés secrètes
+**/whatsapp_session/
+**/.wwebjs_auth/
+**/.wwebjs_cache/
+**/.env
+**/*.env
+
+# Données locales, sessions et historiques de chat (sensible/dynamique)
+**/sessions.json
+**/orders.json
+**/logs.json
+**/coop_chats.json
+**/lang_memory.json
+
+# Fichiers volumineux ou générés temporairement
+**/videos/*.mp4
+**/uploads/*
+**/qrcodes/*.png
+!**/qrcodes/.gitkeep
+!**/uploads/.gitkeep
+
+# Fichiers système Mac / OS
+.DS_Store
+**/.DS_Store
+Thumbs.db
